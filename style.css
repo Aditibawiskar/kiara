@@ -1,0 +1,3015 @@
+@media(min-width:1440px) and (max-width:2560px) {
+    * {
+        overflow-x: hidden;
+
+    }
+
+    .bg {
+        letter-spacing: 0.0rem;
+
+        width: 100%;
+        background-color: rgb(241, 241, 240);
+
+    }
+
+
+
+    /*Navbar*/
+    .navbar {
+
+        background-color: rgb(241, 241, 240);
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #dee2e6;
+        width: 100%;
+    }
+
+
+
+    a.navbar-brand {
+        margin: 0px 0px 0px 50px;
+        padding: 10px 200px 0px 0px;
+        font-family: 'Roboto';
+        background-color: rgb(241, 241, 240);
+        font-size: 2em;
+    }
+
+
+    nav ul {
+
+        margin: 5px 0px 0px 0px;
+        padding: 5px 10px 0px 0px;
+    }
+
+    nav ul li {
+
+        margin: 0px 0px 0px 20px;
+        padding: 0px 10px 0px 0px;
+    }
+
+
+    .nav-link {
+        display: flex;
+    }
+
+    a.nav-link {
+        color: #181717;
+        padding: 0px 0px 0px 0px;
+        margin: 5px 10px 0px 5px;
+        font-size: 1em;
+    }
+
+    .nav-item {
+        color: #9ca0a2;
+    }
+
+    #drop {
+        color: #565555;
+    }
+
+    #cart {
+        padding-top: 15px;
+        gap: 20px;
+    }
+
+    #search {
+        font-size: 1.7em;
+        padding-top: 5px;
+    }
+
+    #icons {
+        display: flex;
+        display: none;
+        padding: 0px 0px;
+        font-size: 1.1em;
+    }
+
+
+    /*Dropdown-menu*/
+    .nav-item-dropdown {
+        position: relative;
+        overflow: visible;
+    }
+
+    .dropdown_menu {
+        z-index: 1000;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-attachment: #fff;
+
+    }
+
+    .dropdown_menu ul {
+        display: block;
+        margin: 10px;
+
+    }
+
+    .dropdown_menu ul li {
+        width: 150px;
+        padding: 10px;
+
+    }
+
+
+    /*--main body,product section--*/
+
+    .product-section {
+        text-align: center;
+        font-family: '"Jost", Roboto, sans-serif';
+
+    }
+
+
+    #demo1 {
+        background-color: rgb(241, 241, 240);
+        justify-content: center;
+
+    }
+
+    .header {
+        background-color: rgb(241, 241, 240);
+        padding-top: 80px;
+        font-size: 4.6em;
+
+    }
+
+    p {
+        box-sizing: border-box;
+    }
+
+    .header-text {
+        font-family: '"Jost", Roboto, sans-serif';
+        width: 100%;
+        background-color: rgb(241, 241, 240);
+
+        font-size: 1.1em;
+        color: #9ca0a2;
+        padding: 20px 470px;
+
+    }
+
+    /*--upper heading of product-*/
+    /* our new arrival */
+    .title {
+        display: inline-flex;
+        background-color: #fff;
+        text-transform: uppercase;
+        justify-content: space-between;
+        color: #000;
+    }
+
+    .arrival {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 110px;
+        font-size: 1.8rem;
+        padding-top: 20px;
+    }
+
+    #arrival1 {
+        background-color: #fff;
+    }
+
+    /*--you may also like heading--*/
+    a.arrival {
+        text-decoration: none;
+        color: #000;
+    }
+
+
+    /*--view all product--*/
+    .title h5 {
+        text-transform: uppercase;
+        margin-right: 110px;
+        border-bottom: 1px solid;
+        margin-bottom: 10px;
+        padding-top: 32px;
+        font-size: 0.9rem;
+        color: #3b3b3b;
+
+    }
+
+
+    /*--slider for sliding images--*/
+    .slider-wrapper {
+        justify-items: center;
+        max-width: 1500px;
+    }
+
+    .slider-wrapper .image-list {
+        max-width: 1300px;
+        display: -webkit-inline-box;
+        gap: 70px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+        padding-top: 0px;
+    }
+
+    .image1 {
+        justify-items: left;
+        width: 380px;
+
+    }
+
+    .image1 h3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 0px;
+        letter-spacing: .0rem;
+    }
+
+    .image1 h6 {
+        font-family: '"Jost", Roboto, sans-serif';
+        padding: 5px;
+        font-size: 1.2rem;
+        color: grey;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    .image1 h4 {
+        font-size: 1.0rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid;
+        padding-left: 0px;
+        letter-spacing: .1rem;
+        padding-bottom: 0.5px;
+    }
+
+    .slider-wrapper .image-list::-webkit-scrollbar {
+        display: none;
+    }
+
+
+
+    /*--Best selling item--*/
+    /*you may also like*/
+    #One {
+        background-color: #fff;
+    }
+
+    #title2 {
+        background-color: #fff;
+    }
+
+    .title2 {
+        display: inline-flex;
+        background-color: #fff;
+        text-transform: uppercase;
+        justify-content: space-between;
+        color: #000;
+    }
+
+    .arrival3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 110px;
+        font-size: 1.8rem;
+        padding-top: 80px;
+    }
+
+    .title2 h5 {
+        text-transform: uppercase;
+
+        margin-right: 120px;
+        border-bottom: 1px solid;
+        margin-bottom: 0px;
+        margin-top: 100px;
+        font-size: 0.9rem;
+        color: #3b3b3b;
+    }
+
+    #best {
+
+        padding-top: 40px;
+        background-color: #fff;
+
+    }
+
+    #selling {
+        padding: 30px;
+        background-color: #fff;
+    }
+
+    .product-list {
+        background-color: #fff;
+    }
+
+    .product-list h5 {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        color: #000;
+        padding: 5px 25px;
+    }
+
+    .product-list h4 {
+        font-family: '"Jost", Roboto, sans-serif';
+        color: #1d1c1c;
+        padding-left: 25px;
+        font-size: 1.2rem;
+    }
+
+    .slider-wrapper .image-list-product {
+        max-width: 1600px;
+        display: -webkit-inline-box;
+        gap: 20px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+        padding-top: 0px;
+        margin: 0px 75px;
+
+    }
+
+    #flex {
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .slider-wrapper .image-list-product .product-image {
+        width: 100%;
+        height: 60vh;
+        margin-left: 0px;
+    }
+
+
+
+    /*--Appointment,store,packaging--*/
+
+
+    #main {
+
+        background-color: #fff;
+    }
+
+    #card1 {
+        background-color: #fff;
+        padding-bottom: 70px;
+
+    }
+
+
+    .card22 {
+        padding-top: 50px;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #footer-icon {
+
+        padding-top: 30px;
+        padding-left: 0px;
+
+        background-color: #fff
+    }
+
+    #cal {
+        padding-right: 10px;
+    }
+
+    #store {
+        padding-right: 0px;
+    }
+
+    #gift {
+        padding-left: 150px;
+    }
+
+    #globe {
+        padding-left: 150px;
+    }
+
+    .card22 i {
+        font-size: 2.1rem;
+        padding-top: 50px;
+        color: #797979;
+        padding-left: 150px;
+    }
+
+    .card22 h3 {
+        font-size: 1.8em;
+        text-align: center;
+        padding: 30px 0px 0px 10px;
+        font-family: '"Jost", Roboto, sans-serif';
+    }
+
+
+    .card22 p {
+        width: 90%;
+        text-align: center;
+        font-size: 1.1rem;
+        color: #959595;
+        padding: 0px 0px 0px 30px;
+        padding-bottom: 70px;
+    }
+
+
+
+    /*2nd image section- shop section*/
+    #cat {
+        background-color: #fff;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .image-item1 {
+        width: 100%;
+
+    }
+
+
+
+    .element-title {
+        padding: 10px;
+        color: #9ca0a2;
+        padding-left: 5px;
+        text-transform: uppercase;
+        padding-bottom: 100px;
+    }
+
+
+    /*--Collection section--*/
+    .collection {
+
+        background-color: rgb(241, 241, 240);
+        padding: 100px 0px;
+    }
+
+    .collection .row {
+
+        margin: 20px 10px 20px 100px;
+        width: 86%;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .text {
+        margin: 0px 30px;
+        text-transform: uppercase;
+        padding: 100px 40px 0px 40px;
+        font-size: 2.5em;
+        font-family: '"Jost", Roboto, sans-serif';
+        text-align: left;
+        background-color: #fff;
+    }
+
+    .collection p {
+        margin: 0px 25px;
+        font-size: 1.1rem;
+        background-color: #fff;
+        color: #797979;
+        text-align: justify;
+        padding: 30px 100px 40px 50px;
+    }
+
+    #winter {
+
+        background-color: #fff;
+    }
+
+    .shop {
+        font-size: 1.1rem;
+        background-color: #1c1a1a;
+        color: #fff;
+        padding: 5px 45px 9px -5px;
+        text-align: center;
+        margin: 0px 370px 5px 80px;
+        justify-content: center;
+
+    }
+
+
+    /* video-image */
+    #video {
+        background-color: #fff;
+        padding-bottom: 60px;
+    }
+
+    /*--We love good complaint section--*/
+    .testimonial-text {
+        margin-top: 70px;
+        font-family: 'Roboto';
+        padding: 90px 200px;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .testimonial-text p {
+        background-color: rgb(241, 241, 240);
+        color: #959595;
+        font-family: 'Gill Sans MT';
+        font-size: 2.8em;
+        text-align: center;
+        width: 58%;
+        margin-left: 236px;
+    }
+
+
+
+    .testimonial-text h5 {
+        background-color: rgb(241, 241, 240);
+        padding: 0px 0px 40px 30px;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .testimonial-text h6 {
+        background-color: rgb(241, 241, 240);
+        text-align: center;
+        padding: 0px 20px 0px 0px;
+        color: #9ca0a2;
+        font-size: 1.4em;
+    }
+
+    /* red blog post h2 */
+    /* cat-images */
+    .post {
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-family: '"Jost", Roboto, sans-serif';
+
+    }
+
+    .view {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        border-bottom: 1px solid;
+        padding-top: 15px;
+        margin-right: 70px;
+    }
+
+    .arrival2 {
+        padding-left: 75px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #head h5 {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        color: #9a9c9e;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #head {
+
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 90px;
+        padding-right: 60px;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+
+
+
+
+    #head h2 {
+        font-family: 'Roboto';
+        text-transform: uppercase;
+        font-size: 1.6rem;
+
+    }
+
+    #head p {
+        color: #9a9c9e;
+
+    }
+
+    /*Logo's*/
+    .logo-content {
+        display: flex;
+
+        margin-left: 60px;
+        padding: 80px 0px 50px 0px;
+    }
+
+    .image-logo {
+        padding: 30px 40px;
+        height: 110px;
+
+    }
+
+    /*--newsletter--*/
+    .newsletter {
+        background-image: url(images/pattern-bg.png);
+
+        height: 450px;
+        width: 100%;
+        background-color: rgb(241, 241, 240);
+        opacity: 4px;
+    }
+
+    .Subscribe {
+        font-family: 'Gill Sans MT';
+        letter-spacing: 0.03rem;
+        padding: 140px 0px 0px 240px;
+        text-transform: uppercase;
+
+    }
+
+    .Subscribe h3 {
+        font-size: 2.9em;
+        padding: 0px 0px 0px 130px;
+    }
+
+
+    /*--sign up--*/
+    .form-control-lg {
+        width: 100%;
+        border-color: #dee2e6;
+        border-style: solid;
+        margin: 0px 10px;
+
+    }
+
+    .email {
+        margin: 0px 200px 0px 160px;
+        padding: 30px 120px 0px;
+        width: 76%;
+
+    }
+
+    .btn-default {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        margin: 10px 290px;
+        font-size: 1.2rem;
+        width: 60%;
+        padding: 10px 0px 10px;
+        font-weight: bold;
+
+    }
+
+
+
+    /*--insta-item--*/
+
+    .insta-image {
+        max-width: 100%;
+
+    }
+
+
+    .instapage {
+        position: relative;
+        height: 40vh;
+    }
+
+    .FOLLOW {
+        font-family: 'Gill Sans MT';
+        background-color: #000;
+        color: #fff;
+        width: 15%;
+        position: absolute;
+        margin: 230px 0px 0px 640px;
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    /*--footer--*/
+    .footer {
+
+        margin-top: 7rem;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #dee2e6;
+    }
+
+    .footer-logo {
+
+        margin: 10px 0px;
+        padding-left: 140px;
+        : 0px;
+        padding-bottom: 0px;
+    }
+
+    .footer-logo p {
+        padding-left: 1px;
+        padding-right: 10px;
+        margin-top: 1.8rem;
+        color: #797979;
+
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+
+
+    .social-icons i {
+
+        margin-bottom: 20px;
+        margin-left: 10px;
+        font-size: 1.6rem;
+    }
+
+    .footer-menu h5 {
+        margin: 0px 30px 15px;
+        font-size: 1.9rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    .contact {
+        padding: 0px 10px;
+    }
+
+    .contact h5 {
+        font-size: 1.9rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    .contact p {
+        font-family: 'Marcellus', 'Roboto';
+        color: #9ca0a2;
+        font-size: 1.2rem;
+    }
+
+    .contact a {
+        text-decoration: none;
+        list-style: none;
+        color: #000;
+
+    }
+
+    .no {
+        color: #000;
+    }
+
+    /*---end Footer--*/
+    #footer-end {
+        margin-top: 3rem;
+    }
+
+    #end {
+        display: flex;
+        padding-left: 7.2rem;
+
+    }
+
+    #copyright {
+        text-align: right;
+        color: #9ca0a2;
+        font-size: 1.2rem;
+
+        padding-right: 5.3rem;
+    }
+
+
+    #copyright a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    #copyright h4 {
+        font-size: 1.3rem;
+        padding-left: 5.3rem;
+    }
+}
+
+
+@media (min-width:1024px) and (max-width:1435px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .bg {
+
+        background-color: rgb(241, 241, 240);
+
+    }
+
+
+    .navbar {
+        height: 14vh;
+        background-color: rgb(241, 241, 240);
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #dee2e6;
+        width: 1040px;
+
+    }
+
+
+
+    a.navbar-brand {
+        margin: -25px 0px 0px 20px;
+        padding: 0px 0px 0px 0px;
+        font-family: 'Roboto';
+        background-color: rgb(241, 241, 240);
+        font-size: 2.5em;
+    }
+
+
+    nav ul {
+        background-color: rgb(241, 241, 240);
+        margin: 10px 0px 0px 120px;
+        padding: 0px 0px 40px 0px;
+
+
+    }
+
+    nav ul li {
+
+        margin: 0px 55px 0px 0px;
+        padding: 0px 0px 0px 10px;
+    }
+
+
+    a.nav-link {
+        color: #181717;
+        font-size: 1.1em;
+    }
+
+    .nav-item {
+        color: #9ca0a2;
+    }
+
+    #drop {
+        color: #565555;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    #cart {
+
+        margin: 70px 0px 0px -1690px;
+        gap: 40px;
+    }
+
+
+    #list {
+        font-size: 1.2em;
+
+    }
+
+    #search {
+        font-size: 1.3em;
+        padding-top: 5px;
+    }
+
+    #icons {
+        display: flex;
+        display: none;
+        padding: 0px 0px;
+        font-size: 1.1em;
+    }
+
+    .product-section {
+        padding-top: 100px;
+        width: 100%;
+    }
+
+
+    .header {
+        font-size: 4.9em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 240px;
+    }
+
+    #header-text p {
+
+        padding-top: 20px;
+
+    }
+
+    .header-text {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #a5a5a5;
+        width: 100%;
+
+        font-size: 1.2em;
+        padding-left: 290px;
+        padding-right: 290px;
+        text-align: center;
+    }
+
+
+    /*--slider for sliding images--*/
+    .slider-wrapper {
+        justify-content: center;
+        max-width: 1200px;
+        padding-left: 45px;
+    }
+
+    .slider-wrapper .image-list {
+        max-width: 920px;
+        display: -webkit-inline-box;
+        gap: 15px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+        padding-top: 0px;
+    }
+
+
+    .image1 {
+        justify-items: left;
+        width: 480px;
+
+    }
+
+    .image1 h3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 0px;
+        letter-spacing: .0rem;
+    }
+
+    .image1 h6 {
+        font-family: '"Jost", Roboto, sans-serif';
+        padding: 5px;
+        font-size: 1.2rem;
+        color: grey;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    .image1 h4 {
+        font-size: 1.0rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid;
+        padding-left: 0px;
+        letter-spacing: .1rem;
+        padding-bottom: 0.5px;
+    }
+
+    .slider-wrapper .image-list::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    /*--Appointment,store,packaging--*/
+
+
+    #main {
+
+        background-color: #fff;
+    }
+
+    #card1 {
+        background-color: #fff;
+        padding-bottom: 70px;
+
+    }
+
+
+    .card22 {
+        padding-top: 50px;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #footer-icon {
+
+        padding-top: 30px;
+        padding-right: 0px;
+        padding-left: 0px;
+        background-color: #fff
+    }
+
+    #store {
+        padding-left: 100px;
+    }
+
+    #gift {
+        padding-left: 110px;
+    }
+
+    #globe {
+        padding-left: 110px;
+    }
+
+    .card22 i {
+        font-size: 2.1rem;
+        padding-top: 50px;
+        color: #797979;
+        padding-left: 110px;
+    }
+
+    .card22 h3 {
+        font-size: 2em;
+        text-align: center;
+        padding: 30px 0px 0px 10px;
+        font-family: '"Jost", Roboto, sans-serif';
+    }
+
+
+    .card22 p {
+        width: 90%;
+        text-align: center;
+        font-size: 1.1rem;
+        color: #959595;
+        padding: 20px 0px 0px 10px;
+        padding-bottom: 70px;
+    }
+
+    /*2nd image section- shop section*/
+    #cat {
+        background-color: #fff;
+        padding-left: 35px;
+        padding-right: 10px;
+    }
+
+    .image-item1 {
+        width: 100%;
+
+    }
+
+    .cat-img {
+        width: 100%;
+    }
+
+    .element-title {
+        padding: 10px;
+        color: #9ca0a2;
+        padding-left: 5px;
+        text-transform: uppercase;
+        padding-bottom: 100px;
+    }
+
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        justify-content: center;
+    }
+
+    /*our new arrival*/
+    #selling {
+        padding: 30px;
+        background-color: #fff;
+    }
+
+    .product-list {
+        background-color: #fff;
+    }
+
+    .product-list h5 {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        color: #000;
+
+        padding: 5px 0px;
+    }
+
+    .product-list h4 {
+        font-family: '"Jost", Roboto, sans-serif';
+        color: #1d1c1c;
+        font-size: 1.2rem;
+    }
+
+    .slider-wrapper .image-list-product {
+        max-width: 1960px;
+        display: -webkit-inline-box;
+        gap: 10px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+
+
+    }
+
+    #flex {
+
+        background-color: #fff;
+    }
+
+    .slider-wrapper .image-list-product .product-image {
+        height: 50vh;
+        width: 100%;
+
+    }
+
+    /*--upper heading of product-*/
+    /* our new arrival */
+    .title {
+        display: inline-flex;
+        background-color: #fff;
+        text-transform: uppercase;
+        justify-content: space-between;
+        color: #000;
+    }
+
+    .arrival {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 70px;
+        font-size: 1.8rem;
+        padding-top: 20px;
+    }
+
+    #arrival1 {
+        background-color: #fff;
+    }
+
+    /*--you may also like heading--*/
+    a.arrival {
+        text-decoration: none;
+        color: #000;
+    }
+
+
+    /*--view all product--*/
+    .title h5 {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-right: 50px;
+        border-bottom: 1px solid;
+        margin-bottom: 8px;
+        padding-top: 35px;
+        font-size: 0.9rem;
+        color: #2c2b2b;
+        ;
+    }
+
+    /*--Collection section--*/
+    .collection {
+
+        background-color: rgb(241, 241, 240);
+        padding: 100px 0px 50px;
+    }
+
+    .collection .row {
+        margin: 20px 0px 20px 0px;
+        width: 97%;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .text {
+        margin: 0px 30px;
+        text-transform: uppercase;
+        padding: 100px 40px 0px 40px;
+        font-size: 2.5em;
+        font-family: '"Jost", Roboto, sans-serif';
+        text-align: left;
+        background-color: #fff;
+    }
+
+
+    .collection p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px 25px;
+        font-size: 1.3rem;
+        background-color: #fff;
+        color: #908e8e;
+        text-align: left;
+        padding: 30px 100px 40px 50px;
+    }
+
+    #winter {
+        padding-bottom: 70px;
+        background-color: #fff;
+    }
+
+    .shop {
+        font-size: 1.1rem;
+        background-color: #1c1a1a;
+        color: #fff;
+        padding: 5px 2px 10px 2px;
+        text-align: center;
+        margin: 0px 200px 20px 70px;
+
+
+    }
+
+    /*--Best selling item--*/
+    /*you may also like*/
+    #One {
+        background-color: #fff;
+    }
+
+    #title2 {
+        background-color: #fff;
+    }
+
+    .title2 {
+        display: inline-flex;
+        background-color: #fff;
+        text-transform: uppercase;
+        justify-content: space-between;
+        color: #000;
+    }
+
+    .arrival3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 70px;
+        font-size: 1.8rem;
+        padding-top: 80px;
+    }
+
+    .title2 h5 {
+        text-transform: uppercase;
+
+        margin-right: 40px;
+        border-bottom: 1px solid;
+        margin-bottom: 0px;
+        margin-top: 100px;
+        font-size: 0.9rem;
+        color: #3b3b3b;
+    }
+
+    /* video-image */
+    #video {
+        background-color: #fff;
+        padding-bottom: 60px;
+    }
+
+    /*--We love good complaint section--*/
+    .testimonial-text {
+        margin-top: 70px;
+        font-family: 'Roboto';
+        padding: 90px 200px;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .testimonial-text p {
+        background-color: rgb(241, 241, 240);
+        color: #959595;
+        font-family: 'Gill Sans MT';
+        font-size: 2.5em;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+
+
+    .testimonial-text h5 {
+        background-color: rgb(241, 241, 240);
+        padding: 0px 0px 40px 30px;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .testimonial-text h6 {
+        background-color: rgb(241, 241, 240);
+        text-align: center;
+        padding: 0px 20px 0px 0px;
+        color: #9ca0a2;
+        font-size: 1.4em;
+    }
+
+    /* red blog post h2 */
+    /* cat-images */
+    .post {
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-family: '"Jost", Roboto, sans-serif';
+
+    }
+
+    .view {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        border-bottom: 1px solid;
+        padding-top: 15px;
+        margin-right: 20px;
+    }
+
+    .arrival2 {
+        padding-left: 35px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+
+    #head {
+
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        padding-left: 40px;
+
+    }
+
+    .image-grid {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    #red {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #head h5 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: #9a9c9e;
+        padding-bottom: 10px;
+    }
+
+    #head h2 {
+        font-family: 'Roboto';
+        text-transform: uppercase;
+        font-size: 1.4rem;
+
+    }
+
+    #head p {
+        color: #9a9c9e;
+        padding-bottom: 80px;
+
+    }
+
+    /*Logo's*/
+    .logo-content {
+        display: flex;
+        gap: 10px;
+        margin-left: 10px;
+        padding: 40px 0px 50px 0px;
+    }
+
+    .image-logo {
+        padding: 30px 30px 0px 0px;
+        height: 90px;
+        gap: 20px;
+
+    }
+
+    /*--newsletter--*/
+    .newsletter {
+        background-image: url(images/pattern-bg.png);
+
+        height: 450px;
+        width: 100%;
+        background-color: rgb(241, 241, 240);
+        opacity: 4px;
+    }
+
+    .Subscribe {
+        font-family: 'Gill Sans MT';
+        letter-spacing: 0.03rem;
+        padding: 140px 0px 0px 220px;
+        text-transform: uppercase;
+
+    }
+
+    .Subscribe h3 {
+        font-size: 2.9em;
+        padding: 0px 0px 0px 100px;
+        text-align: center;
+    }
+
+
+    /*--sign up--*/
+    .form-control-lg {
+        width: 100%;
+        border-color: #dee2e6;
+        border-style: solid;
+        margin: 0px 10px;
+
+    }
+
+    .email {
+        margin: 0px 200px 0px 200px;
+        padding: 30px 80px 0px;
+        width: 76%;
+
+    }
+
+    .btn-default {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        margin: 10px 290px;
+        font-size: 1.2rem;
+        width: 60%;
+        padding: 10px 0px 10px;
+        font-weight: bold;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+
+
+    .bg {
+        background-color: rgb(241, 241, 240);
+    }
+
+    .container-fluid {
+        overflow-x: hidden;
+    }
+
+    a.navbar-brand {
+        font-size: 2.7rem;
+        padding-left: 40px;
+    }
+
+    #search {
+        font-size: 1.9em;
+        padding-left: 700px;
+        margin-top: -57px;
+
+    }
+
+    #list {
+        display: none;
+    }
+
+    #icons {
+        display: flex;
+        gap: 24px;
+        padding-left: 600px;
+        margin-top: -43px;
+        font-size: 1.7em;
+        padding-bottom: 20px;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #dee2e6;
+        width: 770px;
+    }
+
+    .navbar-toggler {
+        font-size: 2.9em;
+        height: 2em;
+        margin-right: 350px;
+        background-color: transparent;
+        border: solid 1.5px;
+        cursor: pointer;
+        background-size: 100%;
+    }
+
+    .product-section {
+        padding-top: 60px;
+        width: 100%;
+    }
+
+
+    .header {
+        font-size: 4.5em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 150px;
+    }
+
+    #header-text p {
+        text-align: center;
+        padding-top: 1 0px;
+        padding-left: 240px;
+        padding-right: 210px;
+        color: #9ca0a2;
+    }
+
+    /*--slider for sliding images--*/
+    .slider-wrapper {
+        justify-content: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+
+    .slider-wrapper .image-list {
+        max-width: 670px;
+        display: -webkit-inline-box;
+        gap: 20px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+        padding-top: 0px;
+    }
+
+
+    .image1 {
+        justify-items: left;
+        width: 340px;
+
+    }
+
+    .image1 h3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 0px;
+        letter-spacing: .0rem;
+    }
+
+    .image1 h6 {
+        font-family: '"Jost", Roboto, sans-serif';
+        padding: 5px;
+        font-size: 1.2rem;
+        color: grey;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    .image1 h4 {
+        font-size: 1.0rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid;
+        padding-left: 0px;
+        letter-spacing: .1rem;
+        padding-bottom: 0.5px;
+    }
+
+    .slider-wrapper .image-list::-webkit-scrollbar {
+        display: none;
+    }
+
+    /*--Appointment,store,packaging--*/
+    #card1 {
+        background-color: #fff
+    }
+
+    #footer-icon {
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 10pxpx;
+        background-color: #fff
+    }
+
+    #store {
+        padding-left: 10px;
+    }
+
+    #gift {
+        padding-left: 32px;
+    }
+
+    #globe {
+        padding-left: 55px;
+    }
+
+    .cards22 {
+
+        padding: 10px;
+        border-top: 1px solid #ccc;
+        background-color: #fff;
+    }
+
+    #card1 i {
+        padding-left: 70px;
+        font-size: 2em;
+        color: #979a9c;
+
+    }
+
+    .card22 h3 {
+        font-size: 2.1em;
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+        font-family: '"Jost", Roboto, sans-serif';
+    }
+
+    .card22 p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #959595;
+        padding: 0px 0px;
+        padding-bottom: 70px;
+    }
+
+    /*2nd image section- shop section*/
+    #cat {
+        background-color: #fff;
+        padding-left: 35px;
+        padding-right: 10px;
+
+    }
+
+    .image-item1 {
+        width: 100%;
+
+
+    }
+
+    .cat-img {
+        width: 98%;
+    }
+
+    .element-title {
+        padding: 10px;
+        color: #9ca0a2;
+        padding-left: 5px;
+        text-transform: uppercase;
+        padding-bottom: 100px;
+    }
+
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        justify-content: center;
+    }
+
+    /*our new arrival*/
+    #selling {
+        background-color: #fff;
+    }
+
+    .product-list {
+        background-color: #fff;
+    }
+
+    .product-list h5 {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        color: #000;
+        padding: 5px 0px;
+    }
+
+    .product-list h4 {
+        font-family: '"Jost", Roboto, sans-serif';
+        color: #1d1c1c;
+        font-size: 1.2rem;
+    }
+
+    .slider-wrapper .image-list-product {
+        max-width: 665px;
+        display: -webkit-inline-box;
+        gap: 20px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+
+
+    }
+
+    #flex {
+
+        background-color: #fff;
+    }
+
+    .slider-wrapper .image-list-product .product-image {
+        height: 70vh;
+        width: 100%;
+
+    }
+
+
+
+    /*--upper heading of product-*/
+    /* our new arrival */
+    .title {
+        display: inline-flex;
+        background-color: #fff;
+        text-transform: uppercase;
+        justify-content: space-between;
+        color: #000;
+
+    }
+
+    .arrival {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 50px;
+        font-size: 1.8rem;
+        padding-top: 49px;
+    }
+
+    #arrival1 {
+        background-color: #fff;
+    }
+
+    /*--you may also like heading--*/
+    a.arrival {
+        text-decoration: none;
+        color: #000;
+    }
+
+
+    /*--view all product--*/
+    .title h5 {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-right: 50px;
+        margin-bottom: 8px;
+        padding-top: 63px;
+        font-size: 0.9rem;
+        color: #2c2b2b;
+        margin-bottom: 10px;
+        border-bottom: 1px solid;
+    }
+
+    /*--Collection section--*/
+    .collection {
+
+        background-color: rgb(241, 241, 240);
+        padding: 100px 0px 50px;
+    }
+
+    .collection .row {
+        margin: 20px 0px 20px 0px;
+        width: 97%;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .text {
+        margin: 0px 30px 0px 80px;
+        text-transform: uppercase;
+        padding: 100px 0px 0px 0px;
+        font-size: 2.2em;
+        font-family: '"Jost", Roboto, sans-serif';
+        text-align: left;
+        background-color: #fff;
+    }
+
+
+    .collection p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px 25px;
+        font-size: 1.3rem;
+        background-color: #fff;
+        color: #908e8e;
+        text-align: left;
+        padding: 30px 40px 40px 65px;
+    }
+
+    #winter {
+        padding-bottom: 70px;
+        background-color: #fff;
+    }
+
+    .shop {
+        font-size: 1.1rem;
+        background-color: #1c1a1a;
+        color: #fff;
+        padding: 5px 2px 10px 2px;
+        text-align: center;
+        margin: 0px 100px 20px 90px;
+    }
+
+    /*--Best selling item--*/
+    /*you may also like*/
+    #One {
+        background-color: #fff;
+    }
+
+    #title2 {
+        background-color: #fff;
+    }
+
+    .title2 {
+        display: inline-flex;
+        background-color: #fff;
+        text-transform: uppercase;
+        justify-content: space-between;
+        color: #000;
+    }
+
+    .arrival3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 40px;
+        font-size: 1.8rem;
+        padding-top: 90px;
+    }
+
+    .title2 h5 {
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        margin-right: 60px;
+        border-bottom: 1px solid;
+        margin-bottom: 18px;
+        margin-top: 100px;
+        font-size: 0.9rem;
+        color: #3b3b3b;
+    }
+
+    /* video-image */
+    #video {
+        background-color: #fff;
+        padding-bottom: 60px;
+    }
+
+
+    /* video-image */
+    #video {
+        background-color: #fff;
+        padding-bottom: 60px;
+    }
+
+    /*--We love good complaint section--*/
+    .testimonial-text {
+        margin-top: 70px;
+        font-family: 'Roboto';
+        padding: 90px 200px;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .testimonial-text p {
+        background-color: rgb(241, 241, 240);
+        color: #959595;
+        font-family: 'Gill Sans MT';
+        font-size: 1.5em;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+
+
+    .testimonial-text h5 {
+        background-color: rgb(241, 241, 240);
+        padding: 0px 0px 40px 0px;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .testimonial-text h6 {
+        background-color: rgb(241, 241, 240);
+        text-align: center;
+        padding: 0px 20px 0px 0px;
+        color: #9ca0a2;
+        font-size: 1.4em;
+    }
+
+    /* red blog post h2 */
+    /* cat-images */
+    .post {
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-family: '"Jost", Roboto, sans-serif';
+
+    }
+
+    .view {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        border-bottom: 1px solid;
+        padding-top: 15px;
+        margin-right: 20px;
+    }
+
+    .arrival2 {
+        padding-left: 35px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+
+    #head {
+
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        padding-left: 40px;
+
+    }
+
+    .image-grid {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    #red {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #head h5 {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #9a9c9e;
+        padding-bottom: 10px;
+    }
+
+    #head h2 {
+        font-family: 'Roboto';
+        text-transform: uppercase;
+        font-size: 1.5rem;
+
+    }
+
+    #head p {
+        color: #9a9c9e;
+
+    }
+/*logo's*/
+
+    .logo-content{
+        margin-left: 20px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:425px) and (max-width:766px) {
+
+    .container-fluid {
+        overflow-x: hidden;
+    }
+
+    .bg {
+        background-color: rgb(241, 241, 240);
+
+    }
+
+
+
+    a.navbar-brand {
+        font-size: 1.9rem;
+        padding-left: 20px;
+    }
+
+    #search {
+        font-size: 1.3em;
+        padding-left: 910px;
+        margin-top: -65px;
+
+    }
+
+    #list {
+        display: none;
+    }
+
+
+    .navbar-toggler {
+
+        margin-right: 200px;
+
+        background-color: transparent;
+        border: solid 2px;
+        cursor: pointer;
+
+    }
+
+    .navbar-toggler-icon {
+        font-size: 0.8em;
+    }
+
+    #search {
+        font-size: 1.2em;
+        padding-left: 360px;
+        padding-top: 25px;
+    }
+
+    #icons {
+        font-size: 1.1em;
+        display: flex;
+        gap: 10px;
+        padding-left: 300px;
+        margin-top: -27px;
+        border-bottom-width: 1.5px;
+        border-bottom-style: solid;
+        border-bottom-color: #dee2e6;
+        padding-bottom: 20px;
+
+    }
+
+
+    .product-section {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .header {
+        text-align: center;
+        font-size: 4.5em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 10px;
+    }
+
+    #header-text p {
+        font-size: 1.1rem;
+        text-align: center;
+        padding-top: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #969899;
+    }
+
+
+
+    .slider-wrapper {
+
+        padding-top: 20px;
+        margin-left: -12px;
+    }
+
+    .slider-wrapper .image-list {
+        max-width: 720px;
+        display: -webkit-inline-box;
+        gap: 20px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+        padding-top: 0px;
+    }
+
+
+    .image1 {
+
+        width: 424px;
+
+    }
+
+    .image1 h3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 2px;
+        letter-spacing: .0rem;
+    }
+
+    .image1 h6 {
+        font-family: '"Jost", Roboto, sans-serif';
+        padding: 5px;
+        font-size: 1.2rem;
+        color: rgb(147, 146, 146);
+        text-align: left;
+        padding-left: 2px;
+    }
+
+    .image1 h4 {
+        font-size: 1.0rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid;
+        padding-left: 2px;
+        letter-spacing: .1rem;
+        padding-bottom: 0.5px;
+        width: 141px;
+        padding-top: 9px;
+    }
+
+    .slider-wrapper .image-list::-webkit-scrollbar {
+        display: none;
+    }
+
+
+
+    /*--Appointment,store,packaging--*/
+    #card1 {
+        background-color: #fff
+    }
+
+    #footer-icon {
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 10pxpx;
+        background-color: #fff
+    }
+
+
+    .cards22 {
+
+        padding: 10px;
+        border-top: 1px solid #ccc;
+        background-color: #fff;
+    }
+
+    #card1 i {
+        padding-left: 170px;
+        font-size: 2em;
+        color: #979a9c;
+
+    }
+
+    .card22 h3 {
+        font-size: 2.1em;
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+        font-family: '"Jost", Roboto, sans-serif';
+    }
+
+    .card22 p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #959595;
+        padding: 0px 0px;
+        padding-bottom: 70px;
+    }
+
+
+    /*2nd image section- shop section*/
+    #cat {
+        background-color: #fff;
+        padding-left: 20px;
+        padding-right: 0px;
+
+    }
+
+    .image-item1 {
+        width: 100%;
+
+
+    }
+
+    .cat-img {
+        width: 100%;
+    }
+
+    .element-title {
+        padding: 10px;
+        color: #9ca0a2;
+        padding-left: 5px;
+        text-transform: uppercase;
+        padding-bottom: 0px;
+    }
+
+
+    .image-grid {
+        display: block;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        justify-content: center;
+    }
+
+
+
+    /*our new arrival*/
+    #selling {
+        background-color: #fff;
+    }
+
+    .product-list {
+        background-color: #fff;
+    }
+
+    .SM {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        color: #141313;
+        padding: 0px 0px 0px 10px;
+
+    }
+
+    .DD {
+        text-transform: uppercase;
+        font-family: '"Jost", Roboto, sans-serif';
+        color: #1d1c1c;
+        font-size: 1.1rem;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .slider-wrapper .image-list-product {
+        max-width: 500px;
+        display: -webkit-inline-box;
+        gap: 0px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+
+
+    }
+
+    #flex {
+
+        background-color: #fff;
+    }
+
+    .slider-wrapper .image-list-product .product-image {
+        height: 46vh;
+        width: 91%;
+
+    }
+
+    .product-image {
+        padding-left: 10px;
+    }
+
+    /*--upper heading of product-*/
+    /* our new arrival */
+    .title {
+
+        background-color: #fff;
+        text-transform: uppercase;
+
+        color: #000;
+
+    }
+
+    .arrival {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 0px;
+        font-size: 1.9rem;
+        padding-top: 58px;
+    }
+
+    #arrival1 {
+        background-color: #fff;
+    }
+
+    /*--you may also like heading--*/
+    a.arrival {
+        text-decoration: none;
+        color: #000;
+    }
+
+
+    /*--view all product--*/
+    .title h5 {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        width: 42%;
+        padding-top: 10px;
+        font-size: 0.9rem;
+        color: #2c2b2b;
+        margin-bottom: 10px;
+        border-bottom: 1px solid;
+    }
+
+    /*--Collection section--*/
+    .collection {
+        background-color: rgb(241, 241, 240);
+        padding: 100px 0px 0px;
+
+    }
+
+    .collection .row {
+        margin: 20px 0px 20px 0px;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .text {
+        margin: 10px 0px 20px 30px;
+        text-transform: uppercase;
+        padding: 100px 0px 0px 0px;
+        font-size: 2.9em;
+        font-family: '"Jost", Roboto, sans-serif';
+        text-align: left;
+        background-color: #fff;
+    }
+
+
+    .collection p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px 40px;
+        font-size: 1.2rem;
+        background-color: #fff;
+        color: #908e8e;
+        text-align: left;
+        padding: 30px 0px 0px 0px;
+
+    }
+
+    #winter {
+        padding-bottom: 70px;
+        background-color: #fff;
+    }
+
+    .shop {
+        font-size: 1.1rem;
+        background-color: #1c1a1a;
+        color: #fff;
+        padding: 5px 2px 10px 2px;
+        text-align: center;
+        margin: 40px 180px 10px 40px;
+
+
+    }
+
+    /*--Best selling item--*/
+    /*you may also like*/
+    #One {
+        background-color: #fff;
+    }
+
+    #title2 {
+        background-color: #fff;
+    }
+
+    .title2 {
+        display: inline-block;
+        background-color: #fff;
+        text-transform: uppercase;
+        justify-content: space-between;
+        color: #000;
+    }
+
+    .arrival3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 0px;
+        font-size: 1.9rem;
+        padding-top: 100px;
+    }
+
+    .title2 h5 {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        width: 40%;
+        padding-top: 0px;
+        font-size: 0.9rem;
+        color: #2c2b2b;
+        margin-bottom: 0px;
+        border-bottom: 1px solid;
+
+    }
+
+    /* video-image */
+    #video {
+        background-color: #fff;
+        padding-bottom: 60px;
+    }
+
+
+    /* video-image */
+    #video {
+        background-color: #fff;
+        padding-bottom: 60px;
+    }
+
+    /*--We love good complaint section--*/
+    .testimonial-text {
+        margin-top: 70px;
+        font-family: 'Roboto';
+        padding: 0px 0px;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .testimonial-text p {
+        background-color: rgb(241, 241, 240);
+        color: #959595;
+        font-family: 'Gill Sans MT';
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 105px;
+        padding-right: 0px;
+        width: 80%;
+    }
+
+
+
+    .testimonial-text h5 {
+        background-color: rgb(241, 241, 240);
+        padding: 0px 0px 40px 30px;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .testimonial-text h6 {
+        background-color: rgb(241, 241, 240);
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        color: #9ca0a2;
+        font-size: 1em;
+    }
+
+    /* red blog post h2 */
+    /* cat-images */
+    .post {
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-family: '"Jost", Roboto, sans-serif';
+
+    }
+
+    .view {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        border-bottom: 1px solid;
+        padding-top: 15px;
+        margin-right: -28px;
+    }
+
+    .arrival2 {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 1.6rem;
+    }
+
+    #head h5 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: #9a9c9e;
+    }
+
+    #head p {
+        color: #9a9c9e;
+        padding-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT';
+        padding-bottom: 80px;
+    }
+
+    #head h2 {
+        text-transform: uppercase;
+    }
+
+/*logo's*/
+
+.logo-content{
+    margin-left: 0px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#logo1{
+   padding-right:17px ;
+}
+
+#logo3{
+    padding-right:31px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:375px) and (max-width:423px) {
+
+
+    .bg {
+        background-color: rgb(241, 241, 240);
+
+    }
+
+    .container-fluid {
+        overflow-x: hidden;
+    }
+
+    a.navbar-brand {
+        font-size: 2.1em;
+        padding-left: 30px;
+    }
+
+    #list {
+        display: none;
+    }
+
+
+    .navbar-toggler {
+
+        margin-right: 130px;
+        background-color: transparent;
+        border: solid 2px;
+        cursor: pointer;
+
+    }
+
+    .navbar-toggler-icon {
+        font-size: 1.1em;
+    }
+
+    #search {
+        font-size: 1.5rem;
+        padding-left: 375px;
+        margin-top: -48px;
+    }
+
+    #icons {
+        font-size: 1.4em;
+        display: flex;
+        gap: 15px;
+        padding-left: 300px;
+        margin-top: -36px;
+        border-bottom-width: 1.5px;
+        border-bottom-style: solid;
+        border-bottom-color: #dee2e6;
+        padding-bottom: 20px;
+
+    }
+
+    .product-section {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .header {
+        text-align: center;
+        font-size: 4.5em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 10px;
+    }
+
+    #header-text p {
+        font-size: 1.1rem;
+        text-align: center;
+        padding-top: 18px;
+        padding-left: 10px;
+        padding-right: 0px;
+        color: #969899;
+    }
+
+    .slider-wrapper {
+
+        padding-top: 20px;
+        margin-left: -5px;
+    }
+
+    .slider-wrapper .image-list {
+        max-width: 400px;
+        display: -webkit-inline-box;
+        gap: 20px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+        padding-top: 0px;
+    }
+
+
+    .image1 {
+
+        width: 369px;
+
+    }
+
+    .image1 h3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 2px;
+        letter-spacing: .0rem;
+    }
+
+    .image1 h6 {
+        font-family: '"Jost", Roboto, sans-serif';
+        padding: 5px;
+        font-size: 1.2rem;
+        color: rgb(147, 146, 146);
+        text-align: left;
+        padding-left: 2px;
+    }
+
+    .image1 h4 {
+        font-size: 1.0rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid;
+        padding-left: 2px;
+        letter-spacing: .1rem;
+        padding-bottom: 0.5px;
+        width: 141px;
+        padding-top: 9px;
+    }
+
+    .slider-wrapper .image-list::-webkit-scrollbar {
+        display: none;
+    }
+
+    /*--Appointment,store,packaging--*/
+    #card1 {
+        background-color: #fff
+    }
+
+    #footer-icon {
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 10pxpx;
+        background-color: #fff
+    }
+
+
+    .cards22 {
+
+        padding: 10px;
+        border-top: 1px solid #ccc;
+        background-color: #fff;
+    }
+
+    #card1 i {
+        padding-left: 150px;
+        font-size: 2em;
+        color: #979a9c;
+
+    }
+
+    .card22 h3 {
+        font-size: 2.1em;
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+        font-family: '"Jost", Roboto, sans-serif';
+    }
+
+    .card22 p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #959595;
+        padding: 0px 0px;
+        padding-bottom: 70px;
+    }
+
+
+    /*2nd image section- shop section*/
+    #cat {
+        background-color: #fff;
+        padding-left: 20px;
+        padding-right: 0px;
+
+    }
+
+    .image-item1 {
+        width: 100%;
+
+
+    }
+
+    .cat-img {
+        width: 100%;
+    }
+
+    .element-title {
+        padding: 10px;
+        color: #9ca0a2;
+        padding-left: 5px;
+        text-transform: uppercase;
+        padding-bottom: 0px;
+    }
+
+
+    .image-grid {
+        display: block;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        justify-content: center;
+    }
+
+
+    /*our new arrival*/
+    #selling {
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .product-list {
+        background-color: #fff;
+    }
+
+    .SM {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        color: #141313;
+        padding: 0px 0px 0px 10px;
+
+    }
+
+    .DD {
+        text-transform: uppercase;
+        font-family: '"Jost", Roboto, sans-serif';
+        color: #1d1c1c;
+        font-size: 1.2rem;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 10%;
+    }
+
+    .slider-wrapper .image-list-product {
+        max-width: 1500px;
+        display: -webkit-inline-box;
+        gap: 0px;
+        font-size: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        grid-template-columns: repeat(10, 1fr);
+        padding-bottom: 60px;
+    }
+
+    #flex {
+
+        background-color: #fff;
+    }
+
+    .slider-wrapper .image-list-product .product-image {
+        height: 40vh;
+        width: 80%;
+
+    }
+
+    .product-image {
+        width: 100%;
+    }
+
+    /*--upper heading of product-*/
+    /* our new arrival */
+    .title {
+
+        background-color: #fff;
+        text-transform: uppercase;
+        color: #000;
+
+    }
+
+    .arrival {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 0px;
+        font-size: 1.9rem;
+        padding-top: 58px;
+    }
+
+    #arrival1 {
+        background-color: #fff;
+    }
+
+    /*--you may also like heading--*/
+    a.arrival {
+        text-decoration: none;
+        color: #000;
+    }
+
+
+    /*--view all product--*/
+    .title h5 {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+
+        padding-top: 10px;
+        font-size: 0.9rem;
+        color: #2c2b2b;
+        margin-bottom: 10px;
+        border-bottom: 1px solid;
+    }
+
+    /*--Collection section--*/
+    .collection {
+
+        background-color: rgb(241, 241, 240);
+        padding: 100px 0px 0px;
+    }
+
+    .collection .row {
+        margin: 20px 0px 20px 0px;
+        width: 97%;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .text {
+        margin: 0px 0px 0px 40px;
+        text-transform: uppercase;
+        padding: 100px 0px 0px 0px;
+        font-size: 2.7em;
+        font-family: '"Jost", Roboto, sans-serif';
+        text-align: left;
+        background-color: #fff;
+    }
+
+
+    .collection p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px 25px;
+        font-size: 1.3rem;
+        background-color: #fff;
+        color: #908e8e;
+        text-align: left;
+        padding: 30px 0px 40px 5px;
+    }
+
+    #winter {
+        padding-bottom: 70px;
+        background-color: #fff;
+    }
+
+    .shop {
+        font-size: 1.1rem;
+        background-color: #1c1a1a;
+        color: #fff;
+        padding: 5px 2px 10px 2px;
+        text-align: center;
+        margin: 0px 120px 20px 30px;
+
+
+    }
+
+
+    /*--Best selling item--*/
+    /*you may also like*/
+    #One {
+        background-color: #fff;
+    }
+
+    #title2 {
+        background-color: #fff;
+    }
+
+    .title2 {
+        display: inline-block;
+        background-color: #fff;
+        text-transform: uppercase;
+        justify-content: space-between;
+        color: #000;
+    }
+
+    .arrival3 {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        padding-left: 0px;
+        font-size: 1.9rem;
+        padding-top: 100px;
+    }
+
+    .title2 h5 {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        width: 40%;
+        padding-top: 0px;
+        font-size: 0.9rem;
+        color: #2c2b2b;
+        margin-bottom: 0px;
+        border-bottom: 1px solid;
+
+    }
+
+    /* video-image */
+    #video {
+        background-color: #fff;
+        padding-bottom: 60px;
+    }
+
+
+    /* video-image */
+    #video {
+        background-color: #fff;
+        padding-bottom: 60px;
+    }
+
+    /*--We love good complaint section--*/
+    .testimonial-text {
+        margin-top: 70px;
+        font-family: 'Roboto';
+        padding: 0px 0px;
+        background-color: rgb(241, 241, 240);
+    }
+
+    .testimonial-text p {
+        background-color: rgb(241, 241, 240);
+        color: #959595;
+        font-family: 'Gill Sans MT';
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 0px;
+        width: 72%;
+    }
+
+
+
+    .testimonial-text h5 {
+        background-color: rgb(241, 241, 240);
+        padding: 0px 0px 40px 30px;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .testimonial-text h6 {
+        background-color: rgb(241, 241, 240);
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        color: #9ca0a2;
+        font-size: 1em;
+    }
+
+    /* red blog post h2 */
+    /* cat-images */
+    .post {
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-family: '"Jost", Roboto, sans-serif';
+
+    }
+
+    .view {
+        font-family: '"Jost", Roboto, sans-serif';
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        border-bottom: 1px solid;
+        padding-top: 15px;
+        margin-right: -28px;
+    }
+
+    .arrival2 {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 1.6rem;
+    }
+
+    #head h5 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: #9a9c9e;
+    }
+
+    #head p {
+        color: #9a9c9e;
+        padding-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT';
+        padding-bottom: 80px;
+    }
+
+    #head h2 {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+    }
+
+/*logo's*/
+
+.logo-content{
+    margin-left: 10px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.image-logo{
+    height: 30px;
+    width: 45%;
+}
+#logo1{
+   padding-right:70px ;
+}
+
+#logo3{
+    padding-right:70px;
+}
+
+}
