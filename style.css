@@ -672,11 +672,10 @@
         max-width: 100%;
 
     }
-
-
     .instapage {
         position: relative;
         height: 40vh;
+        background-color: #fff;
     }
 
     .FOLLOW {
@@ -692,8 +691,8 @@
 
     /*--footer--*/
     .footer {
-
-        margin-top: 7rem;
+background-color: #fff;
+        padding-top: 7rem;
         border-bottom-width: 1px;
         border-bottom-style: solid;
         border-bottom-color: #dee2e6;
@@ -1370,7 +1369,6 @@
     /*--newsletter--*/
     .newsletter {
         background-image: url(images/pattern-bg.png);
-
         height: 450px;
         width: 100%;
         background-color: rgb(241, 241, 240);
@@ -1380,15 +1378,16 @@
     .Subscribe {
         font-family: 'Gill Sans MT';
         letter-spacing: 0.03rem;
-        padding: 140px 0px 0px 220px;
+        padding: 140px 0px 0px 200px;
         text-transform: uppercase;
 
     }
 
     .Subscribe h3 {
         font-size: 2.9em;
-        padding: 0px 0px 0px 100px;
+        padding: 0px 0px 0px 10px;
         text-align: center;
+margin-right: 260px;
     }
 
 
@@ -1402,7 +1401,7 @@
     }
 
     .email {
-        margin: 0px 200px 0px 200px;
+        margin: 0px 0px 0px 110px;
         padding: 30px 80px 0px;
         width: 76%;
 
@@ -1413,7 +1412,7 @@
         color: #fff;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-        margin: 10px 290px;
+        margin: 10px 200px;
         font-size: 1.2rem;
         width: 60%;
         padding: 10px 0px 10px;
@@ -1421,9 +1420,123 @@
 
     }
 
+/*--insta-item--*/
+
+.insta-image {
+    max-width: 100%;
+}
+
+
+.instapage {
+    background-color: #fff;
+    position: relative;
+    height: 36vh;
+}
+
+.FOLLOW {
+    font-family: 'Gill Sans MT';
+    background-color: #000;
+    color: #fff;
+    width: 15%;
+    position: absolute;
+    margin: 150px 0px 0px 430px;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+ /*--footer--*/
+ .footer {
+    background-color: #fff;
+    padding-top: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dee2e6;
+}
+.footer-menu ul{
+    padding-left: 8px;
+}
+.footer-logo {
+
+    margin: 5px 0px;
+    padding-left: 80px; 
+    padding-bottom: 0px;
+}
+
+.footer-logo p {
+    padding-left: 1px;
+    padding-right: 10px;
+    margin-top: 1.8rem;
+    color: #797979;
+    font-size: 1.1rem;
+    text-align: left;
+}
 
 
 
+.social-icons i {
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+.footer-menu h5 {
+    margin: 0px 0px 15px ;
+    font-size: 1.7rem;
+    font-family: 'Marcellus', 'Roboto';
+}
+
+.contact {
+    padding: 0px 0px;
+}
+
+.contact h5 {
+    font-size: 1.9rem;
+    font-family: 'Marcellus', 'Roboto';
+}
+
+.contact p {
+    font-family: 'Marcellus', 'Roboto';
+    color: #9ca0a2;
+    font-size: 1.2rem;
+}
+
+.contact a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+
+}
+
+.no {
+    color: #000;
+}
+
+/*---end Footer--*/
+#footer-end {
+    margin-top: 3rem;
+}
+
+#end {
+    padding-left: 3rem;
+
+}
+
+#copyright {
+    text-align: right;
+    color: #9ca0a2;
+    font-size: 1.2rem;
+    padding-right: 3rem;
+}
+
+
+#copyright a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#copyright h4 {
+    font-size: 1.3rem;
+    padding-left: 3rem;
+}
 
 
 
@@ -1947,6 +2060,187 @@
         padding-bottom: 50px;
     }
 
+
+
+    /*--newsletter--*/
+    .newsletter {
+        background-image: url(images/pattern-bg.png);
+        height: 450px;
+        width: 100%;
+        background-color: rgb(241, 241, 240);
+        opacity: 4px;
+    }
+
+    .Subscribe {
+        font-family: 'Gill Sans MT';
+        letter-spacing: 0.03rem;
+        padding: 100px 0px 0px 200px;
+        text-transform: uppercase;
+
+    }
+
+    .Subscribe h3 {
+        font-size: 2.5em;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+margin-right: 170px;
+    }
+
+
+    /*--sign up--*/
+    .form-control-lg {
+        width: 100%;
+        border-color: #dee2e6;
+        border-style: solid;
+        margin: 0px 10px;
+
+    }
+
+    .email {
+        margin: 0px 0px 0px 100px;
+        padding: 30px 50px 0px;
+        width: 76%;
+
+    }
+
+    .btn-default {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        margin: 10px 160px;
+        font-size: 1.2rem;
+        width: 62%;
+        padding: 10px 20px 10px;
+        font-weight: bold;
+
+    }
+
+/*--insta-item--*/
+
+.insta-image {
+    max-width: 100%;
+}
+
+
+.instapage {
+    background-color: #fff;
+    position: relative;
+    height: 34vh;
+}
+
+.FOLLOW {
+    font-family: 'Gill Sans MT';
+    background-color: #000;
+    color: #fff;
+    width: 33%;
+    position: absolute;
+    margin: 120px 0px 0px 249px;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+
+
+ /*--footer--*/
+ .footer {
+    background-color: #fff;
+    padding-top: 5px;
+ }
+ #end1{
+    padding-bottom: 42px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #abacad;
+}
+.footer-menu ul{
+    padding-left: 2px;
+}
+.footer-logo {
+
+    margin: 5px 0px;
+    padding-left: 50px; 
+    padding-bottom: 0px;
+}
+
+.footer-logo p {
+   
+    padding-right: 10px;
+    margin-top: 1.8rem;
+    color: #797979;
+    font-size: 1.1rem;
+}
+
+
+
+.social-icons i {
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+   
+}
+
+.footer-menu h5 {
+    margin: 0px -10px 15px ;
+    font-size: 1.5rem;
+    font-family: 'Marcellus', 'Roboto';
+}
+#AB1{
+    padding-left: 10px;
+}
+
+.contact {
+    padding: 0px 0px;
+}
+
+.contact h5 {
+    font-size: 1.9rem;
+    font-family: 'Marcellus', 'Roboto';
+}
+
+.contact p {
+    font-family: 'Marcellus', 'Roboto';
+    color: #9ca0a2;
+    font-size: 1.2rem;
+}
+
+.contact a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+
+}
+
+.no {
+    color: #000;
+}
+
+/*---end Footer--*/
+#footer-end {
+    margin-top: 3rem;
+}
+
+#end {
+    padding-left: 3rem;
+
+}
+
+#copyright {
+    text-align: right;
+    color: #9ca0a2;
+    font-size: 1.2rem;
+    padding-right: 3rem;
+}
+
+
+#copyright a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#copyright h4 {
+    font-size: 1.3rem;
+    padding-left: 3rem;
+}
 
 
 
@@ -2488,6 +2782,214 @@
 }
 
 
+    /*--newsletter--*/
+    .newsletter {
+        background-image: url(images/pattern-bg.png);
+        height: 450px;
+        width: 100%;
+        background-color: rgb(241, 241, 240);
+        opacity: 4px;
+    }
+
+    .Subscribe {
+        font-family: 'Gill Sans MT';
+        letter-spacing: 0.03rem;
+        padding: 80px 0px 0px 0px;
+        text-transform: uppercase;
+
+    }
+
+    .Subscribe h3 {
+        font-size: 2.9em;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+margin-right: 0px;
+    }
+
+
+    /*--sign up--*/
+    .form-control-lg {
+        width: 100%;
+        border-color: #dee2e6;
+        border-style: solid;
+        
+
+    }
+
+    .email {
+       
+        padding: 30px 0px 0px;
+        width: 100%;
+
+    }
+
+    .btn-default {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        margin: 10px 0px;
+        font-size: 1.2rem;
+        width: 100%;
+        padding: 10px 0px 10px;
+        font-weight: bold;
+
+    }
+
+/*--insta-item--*/
+
+.insta-image {
+    padding-top: 10px;
+    max-width: 100%;
+
+}
+
+
+.instapage {
+    position: relative;
+    height: 34vh;
+}
+
+.FOLLOW {
+    font-family: 'Gill Sans MT';
+    background-color: #000;
+    color: #fff;
+    width: 60%;
+    position: absolute;
+    margin: 614px 0px 0px 70px;
+    font-size: 0.8rem;
+    padding: 7px;
+}
+
+ /*--footer--*/
+ .footer {
+    background-color: #fff;
+    padding-top: 1px;
+ }
+ #end1{
+   
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #abacad;
+}
+.footer-menu{
+    margin-top: -1px;
+}
+.footer-menu ul{
+    padding-left: 2px;
+}
+.footer-logo {
+
+    margin: 491px 0px 27px;
+    padding-left: 5px; 
+  
+}
+
+.footer-logo p {
+   
+    padding-right: 6px;
+    margin-top: 1.8rem;
+    color: #797979;
+    font-size: 1.1rem;
+}
+
+
+.social-icons i {
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+   
+}
+
+.footer-menu h5 {
+    margin: 0px 10px px ;
+    font-size: 1.5rem;
+    font-family: 'Marcellus', 'Roboto';
+}
+#AB1{
+    padding-left: 10px;
+    
+}
+
+.contact {
+    padding: 0px 0px;
+}
+
+.contact h5 {
+    font-size: 1.9rem;
+    font-family: 'Marcellus', 'Roboto';
+}
+
+.contact p {
+    font-family: 'Marcellus', 'Roboto';
+    color: #9ca0a2;
+    font-size: 1.2rem;
+}
+
+.contact a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+
+}
+
+.no {
+    color: #000;
+}
+
+/*---end Footer--*/
+#footer-end {
+    margin-top: 3rem;
+}
+
+#end {
+    padding-left: 3rem;
+
+}
+
+#copyright {
+    text-align: right;
+    color: #9ca0a2;
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+
+
+#copyright a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#copyright h4 {
+    font-size: 1.3rem;
+    padding-left: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3011,5 +3513,194 @@
 #logo3{
     padding-right:70px;
 }
+
+/*--newsletter--*/
+.newsletter {
+    background-image: url(images/pattern-bg.png);
+    height: 450px;
+    width: 100%;
+    background-color: rgb(241, 241, 240);
+    opacity: 4px;
+}
+
+.Subscribe {
+    font-family: 'Gill Sans MT';
+    letter-spacing: 0.03rem;
+    padding: 80px 0px 0px 0px;
+    text-transform: uppercase;
+
+}
+
+.Subscribe h3 {
+    font-size: 2.9em;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+margin-right: 0px;
+}
+
+
+/*--sign up--*/
+.form-control-lg {
+    width: 100%;
+    border-color: #dee2e6;
+    border-style: solid;
+    
+
+}
+
+.email {
+   
+    padding: 30px 0px 0px;
+    width: 100%;
+
+}
+
+.btn-default {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin: 10px 0px;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 0px 10px;
+    font-weight: bold;
+
+}
+
+/*--insta-item--*/
+
+.insta-image {
+    padding-top: 10px;
+    max-width: 100%;
+
+}
+
+
+.instapage {
+    position: relative;
+    height: 34vh;
+}
+
+.FOLLOW {
+    font-family: 'Gill Sans MT';
+    background-color: #000;
+    color: #fff;
+    width: 70%;
+    position: absolute;
+    margin: 535px 0px 0px 40px;
+    font-size: 1.1rem;
+    padding: 4px;
+}
+
+ /*--footer--*/
+ .footer {
+    background-color: #fff;
+    padding-top: 1px;
+ }
+ #end1{
+   
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #abacad;
+}
+.footer-menu{
+    margin-top: -1px;
+}
+.footer-menu ul{
+    padding-left: 2px;
+}
+.footer-logo {
+
+    margin: 491px 0px 27px;
+    padding-left: 5px; 
+  
+}
+
+.footer-logo p {
+   
+    padding-right: 6px;
+    margin-top: 1.8rem;
+    color: #797979;
+    font-size: 1.1rem;
+}
+
+
+.social-icons i {
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+   
+}
+
+.footer-menu h5 {
+    margin: 0px 10px px ;
+    font-size: 1.5rem;
+    font-family: 'Marcellus', 'Roboto';
+}
+#AB1{
+    padding-left: 10px;
+    
+}
+
+.contact {
+    padding: 0px 0px;
+}
+
+.contact h5 {
+    font-size: 1.9rem;
+    font-family: 'Marcellus', 'Roboto';
+}
+
+.contact p {
+    font-family: 'Marcellus', 'Roboto';
+    color: #9ca0a2;
+    font-size: 1.2rem;
+}
+
+.contact a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+
+}
+
+.no {
+    color: #000;
+}
+
+/*---end Footer--*/
+#footer-end {
+    margin-top: 3rem;
+}
+
+#end {
+    padding-left: 3rem;
+
+}
+
+#copyright {
+    text-align: right;
+    color: #9ca0a2;
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+
+
+#copyright a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#copyright h4 {
+    font-size: 1.3rem;
+    padding-left: 3rem;
+}
+
+
+
+
+
+
+
 
 }
