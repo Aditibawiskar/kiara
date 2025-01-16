@@ -144,7 +144,6 @@
         font-family: '"Jost", Roboto, sans-serif';
         width: 100%;
         background-color: rgb(241, 241, 240);
-
         font-size: 1.1em;
         color: #9ca0a2;
         padding: 20px 470px;
@@ -197,6 +196,7 @@
     .slider-wrapper {
         justify-items: center;
         max-width: 1500px;
+
     }
 
     .slider-wrapper .image-list {
@@ -217,11 +217,22 @@
 
     }
 
+    .image1 img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
+
+    .image1:hover img {
+        transform: scale(1);
+    }
+
     .image1 h3 {
         font-family: '"Jost", Roboto, sans-serif';
         font-size: 1.6rem;
         text-transform: uppercase;
-        padding-top: 20px;
+        padding-top: 40px;
         padding-left: 0px;
         letter-spacing: .0rem;
     }
@@ -307,7 +318,7 @@
         font-family: '"Jost", Roboto, sans-serif';
         text-transform: uppercase;
         color: #000;
-        padding: 5px 25px;
+        padding: 35px 25px 0px;
     }
 
     .product-list h4 {
@@ -342,7 +353,14 @@
         margin-left: 0px;
     }
 
+    .product-list img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
 
+    .product-list:hover img {
+        transform: scale(1);
+    }
 
     /*--Appointment,store,packaging--*/
 
@@ -425,13 +443,19 @@
 
     .image-item1 {
         width: 100%;
-
     }
 
+    .image-item1 img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
 
+    .image-item1:hover img {
+        transform: scale(1);
+    }
 
     .element-title {
-        padding: 10px;
+        padding: 35px;
         color: #9ca0a2;
         padding-left: 5px;
         text-transform: uppercase;
@@ -672,6 +696,7 @@
         max-width: 100%;
 
     }
+
     .instapage {
         position: relative;
         height: 40vh;
@@ -691,11 +716,16 @@
 
     /*--footer--*/
     .footer {
-background-color: #fff;
+        background-color: #fff;
         padding-top: 7rem;
+
+    }
+
+    #end1 {
+        padding-bottom: 42px;
         border-bottom-width: 1px;
         border-bottom-style: solid;
-        border-bottom-color: #dee2e6;
+        border-bottom-color: #abacad;
     }
 
     .footer-logo {
@@ -760,12 +790,13 @@ background-color: #fff;
     /*---end Footer--*/
     #footer-end {
         margin-top: 3rem;
+
+
     }
 
     #end {
         display: flex;
         padding-left: 7.2rem;
-
     }
 
     #copyright {
@@ -932,11 +963,22 @@ background-color: #fff;
 
     }
 
+    .image1 img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
+
+    .image1:hover img {
+        transform: scale(1);
+    }
+
     .image1 h3 {
         font-family: '"Jost", Roboto, sans-serif';
-        font-size: 1.6rem;
+        font-size: 1.9rem;
         text-transform: uppercase;
-        padding-top: 20px;
+        padding-top: 40px;
         padding-left: 0px;
         letter-spacing: .0rem;
     }
@@ -1042,12 +1084,21 @@ background-color: #fff;
 
     }
 
+    .image-item1 img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
+
+    .image-item1:hover img {
+        transform: scale(1);
+    }
+
     .cat-img {
         width: 100%;
     }
 
     .element-title {
-        padding: 10px;
+        padding: 30px;
         color: #9ca0a2;
         padding-left: 5px;
         text-transform: uppercase;
@@ -1077,7 +1128,11 @@ background-color: #fff;
         text-transform: uppercase;
         color: #000;
 
-        padding: 5px 0px;
+    }
+
+    .DD {
+        padding-top: 33px;
+        font-size: 1.4rem;
     }
 
     .product-list h4 {
@@ -1095,8 +1150,15 @@ background-color: #fff;
         scrollbar-width: none;
         grid-template-columns: repeat(10, 1fr);
         padding-bottom: 60px;
+    }
 
+    .product-list img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
 
+    .product-list:hover img {
+        transform: scale(1);
     }
 
     #flex {
@@ -1281,7 +1343,7 @@ background-color: #fff;
     }
 
     /* red blog post h2 */
-    /* cat-images */
+
     .post {
         display: inline-flex;
         justify-content: space-between;
@@ -1387,7 +1449,7 @@ background-color: #fff;
         font-size: 2.9em;
         padding: 0px 0px 0px 10px;
         text-align: center;
-margin-right: 260px;
+        margin-right: 260px;
     }
 
 
@@ -1420,128 +1482,133 @@ margin-right: 260px;
 
     }
 
-/*--insta-item--*/
+    /*--insta-item--*/
 
-.insta-image {
-    max-width: 100%;
+    .insta-image {
+        max-width: 100%;
+    }
+
+
+    .instapage {
+        background-color: #fff;
+        position: relative;
+        height: 36vh;
+    }
+
+    .FOLLOW {
+        font-family: 'Gill Sans MT';
+        background-color: #000;
+        color: #fff;
+        width: 15%;
+        position: absolute;
+        margin: 150px 0px 0px 430px;
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    /*--footer--*/
+    .footer {
+        background-color: #fff;
+        padding-top: 5px;
+    }
+
+    #end1 {
+        padding-bottom: 42px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #abacad;
+    }
+
+    .footer-menu ul {
+        padding-left: 8px;
+    }
+
+    .footer-logo {
+
+        margin: 5px 0px;
+        padding-left: 80px;
+        padding-bottom: 0px;
+    }
+
+    .footer-logo p {
+        padding-left: 1px;
+        padding-right: 10px;
+        margin-top: 1.8rem;
+        color: #797979;
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+
+
+    .social-icons i {
+        margin-bottom: 20px;
+        font-size: 1.7rem;
+    }
+
+    .footer-menu h5 {
+        margin: 0px 0px 15px;
+        font-size: 1.7rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    .contact {
+        padding: 0px 0px;
+    }
+
+    .contact h5 {
+        font-size: 1.9rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    .contact p {
+        font-family: 'Marcellus', 'Roboto';
+        color: #9ca0a2;
+        font-size: 1.2rem;
+    }
+
+    .contact a {
+        text-decoration: none;
+        list-style: none;
+        color: #000;
+
+    }
+
+    .no {
+        color: #000;
+    }
+
+    /*---end Footer--*/
+    #footer-end {
+        margin-top: 3rem;
+    }
+
+    #end {
+        padding-left: 3rem;
+
+    }
+
+    #copyright {
+        text-align: right;
+        color: #9ca0a2;
+        font-size: 1.2rem;
+        padding-right: 3rem;
+    }
+
+
+    #copyright a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    #copyright h4 {
+        font-size: 1.3rem;
+        padding-left: 3rem;
+    }
+
 }
 
 
-.instapage {
-    background-color: #fff;
-    position: relative;
-    height: 36vh;
-}
-
-.FOLLOW {
-    font-family: 'Gill Sans MT';
-    background-color: #000;
-    color: #fff;
-    width: 15%;
-    position: absolute;
-    margin: 150px 0px 0px 430px;
-    font-size: 0.8rem;
-    padding: 5px;
-}
-
- /*--footer--*/
- .footer {
-    background-color: #fff;
-    padding-top: 5px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #dee2e6;
-}
-.footer-menu ul{
-    padding-left: 8px;
-}
-.footer-logo {
-
-    margin: 5px 0px;
-    padding-left: 80px; 
-    padding-bottom: 0px;
-}
-
-.footer-logo p {
-    padding-left: 1px;
-    padding-right: 10px;
-    margin-top: 1.8rem;
-    color: #797979;
-    font-size: 1.1rem;
-    text-align: left;
-}
-
-
-
-.social-icons i {
-    margin-bottom: 20px;
-    font-size: 1.7rem;
-}
-
-.footer-menu h5 {
-    margin: 0px 0px 15px ;
-    font-size: 1.7rem;
-    font-family: 'Marcellus', 'Roboto';
-}
-
-.contact {
-    padding: 0px 0px;
-}
-
-.contact h5 {
-    font-size: 1.9rem;
-    font-family: 'Marcellus', 'Roboto';
-}
-
-.contact p {
-    font-family: 'Marcellus', 'Roboto';
-    color: #9ca0a2;
-    font-size: 1.2rem;
-}
-
-.contact a {
-    text-decoration: none;
-    list-style: none;
-    color: #000;
-
-}
-
-.no {
-    color: #000;
-}
-
-/*---end Footer--*/
-#footer-end {
-    margin-top: 3rem;
-}
-
-#end {
-    padding-left: 3rem;
-
-}
-
-#copyright {
-    text-align: right;
-    color: #9ca0a2;
-    font-size: 1.2rem;
-    padding-right: 3rem;
-}
-
-
-#copyright a {
-    color: #000000;
-    text-decoration: none;
-}
-
-#copyright h4 {
-    font-size: 1.3rem;
-    padding-left: 3rem;
-}
-
-
-
-
-}
 
 @media (min-width:768px) and (max-width:1023px) {
 
@@ -1624,7 +1691,7 @@ margin-right: 260px;
     .slider-wrapper .image-list {
         max-width: 670px;
         display: -webkit-inline-box;
-        gap: 20px;
+        gap: 40px;
         font-size: 0;
         overflow-x: auto;
         scrollbar-width: none;
@@ -1640,11 +1707,22 @@ margin-right: 260px;
 
     }
 
+    .image1 img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
+
+    .image1:hover img {
+        transform: scale(1);
+    }
+
     .image1 h3 {
         font-family: '"Jost", Roboto, sans-serif';
         font-size: 1.6rem;
         text-transform: uppercase;
-        padding-top: 20px;
+        padding-top: 30px;
         padding-left: 0px;
         letter-spacing: .0rem;
     }
@@ -1735,8 +1813,16 @@ margin-right: 260px;
 
     .image-item1 {
         width: 100%;
+        gap: 10px;
+    }
 
+    .image-item1 img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
 
+    .image-item1:hover img {
+        transform: scale(1);
     }
 
     .cat-img {
@@ -1744,7 +1830,7 @@ margin-right: 260px;
     }
 
     .element-title {
-        padding: 10px;
+        padding: 20px;
         color: #9ca0a2;
         padding-left: 5px;
         text-transform: uppercase;
@@ -1772,7 +1858,11 @@ margin-right: 260px;
         font-family: '"Jost", Roboto, sans-serif';
         text-transform: uppercase;
         color: #000;
-        padding: 5px 0px;
+
+    }
+
+    .DD {
+        padding-top: 30px;
     }
 
     .product-list h4 {
@@ -1784,14 +1874,21 @@ margin-right: 260px;
     .slider-wrapper .image-list-product {
         max-width: 665px;
         display: -webkit-inline-box;
-        gap: 20px;
+        gap: 50px;
         font-size: 0;
         overflow-x: auto;
         scrollbar-width: none;
         grid-template-columns: repeat(10, 1fr);
         padding-bottom: 60px;
+    }
 
+    .product-list img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
 
+    .product-list:hover img {
+        transform: scale(1);
     }
 
     #flex {
@@ -1984,7 +2081,7 @@ margin-right: 260px;
     }
 
     /* red blog post h2 */
-    /* cat-images */
+
     .post {
         display: inline-flex;
         justify-content: space-between;
@@ -2052,9 +2149,10 @@ margin-right: 260px;
         color: #9a9c9e;
 
     }
-/*logo's*/
 
-    .logo-content{
+    /*logo's*/
+
+    .logo-content {
         margin-left: 20px;
         padding-top: 80px;
         padding-bottom: 50px;
@@ -2083,7 +2181,7 @@ margin-right: 260px;
         font-size: 2.5em;
         padding: 0px 0px 0px 0px;
         text-align: center;
-margin-right: 170px;
+        margin-right: 170px;
     }
 
 
@@ -2116,149 +2214,138 @@ margin-right: 170px;
 
     }
 
-/*--insta-item--*/
+    /*--insta-item--*/
 
-.insta-image {
-    max-width: 100%;
-}
-
-
-.instapage {
-    background-color: #fff;
-    position: relative;
-    height: 34vh;
-}
-
-.FOLLOW {
-    font-family: 'Gill Sans MT';
-    background-color: #000;
-    color: #fff;
-    width: 33%;
-    position: absolute;
-    margin: 120px 0px 0px 249px;
-    font-size: 1.3rem;
-    padding: 5px;
-}
+    .insta-image {
+        max-width: 100%;
+    }
 
 
+    .instapage {
+        background-color: #fff;
+        position: relative;
+        height: 34vh;
+    }
 
- /*--footer--*/
- .footer {
-    background-color: #fff;
-    padding-top: 5px;
- }
- #end1{
-    padding-bottom: 42px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #abacad;
-}
-.footer-menu ul{
-    padding-left: 2px;
-}
-.footer-logo {
-
-    margin: 5px 0px;
-    padding-left: 50px; 
-    padding-bottom: 0px;
-}
-
-.footer-logo p {
-   
-    padding-right: 10px;
-    margin-top: 1.8rem;
-    color: #797979;
-    font-size: 1.1rem;
-}
+    .FOLLOW {
+        font-family: 'Gill Sans MT';
+        background-color: #000;
+        color: #fff;
+        width: 33%;
+        position: absolute;
+        margin: 120px 0px 0px 249px;
+        font-size: 1.3rem;
+        padding: 5px;
+    }
 
 
 
-.social-icons i {
-    margin-bottom: 20px;
-    font-size: 1.7rem;
-   
-}
+    /*--footer--*/
+    .footer {
+        background-color: #fff;
+        padding-top: 5px;
+    }
 
-.footer-menu h5 {
-    margin: 0px -10px 15px ;
-    font-size: 1.5rem;
-    font-family: 'Marcellus', 'Roboto';
-}
-#AB1{
-    padding-left: 10px;
-}
+    #end1 {
+        padding-bottom: 42px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #abacad;
+    }
 
-.contact {
-    padding: 0px 0px;
-}
+    .footer-menu ul {
+        padding-left: 2px;
+    }
 
-.contact h5 {
-    font-size: 1.9rem;
-    font-family: 'Marcellus', 'Roboto';
-}
+    .footer-logo {
 
-.contact p {
-    font-family: 'Marcellus', 'Roboto';
-    color: #9ca0a2;
-    font-size: 1.2rem;
-}
+        margin: 5px 0px;
+        padding-left: 50px;
+        padding-bottom: 0px;
+    }
 
-.contact a {
-    text-decoration: none;
-    list-style: none;
-    color: #000;
+    .footer-logo p {
 
-}
-
-.no {
-    color: #000;
-}
-
-/*---end Footer--*/
-#footer-end {
-    margin-top: 3rem;
-}
-
-#end {
-    padding-left: 3rem;
-
-}
-
-#copyright {
-    text-align: right;
-    color: #9ca0a2;
-    font-size: 1.2rem;
-    padding-right: 3rem;
-}
-
-
-#copyright a {
-    color: #000000;
-    text-decoration: none;
-}
-
-#copyright h4 {
-    font-size: 1.3rem;
-    padding-left: 3rem;
-}
+        padding-right: 10px;
+        margin-top: 1.8rem;
+        color: #797979;
+        font-size: 1.1rem;
+    }
 
 
 
+    .social-icons i {
+        margin-bottom: 20px;
+        font-size: 1.7rem;
+
+    }
+
+    .footer-menu h5 {
+        margin: 0px -10px 15px;
+        font-size: 1.5rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    #AB1 {
+        padding-left: 10px;
+    }
+
+    .contact {
+        padding: 0px 0px;
+    }
+
+    .contact h5 {
+        font-size: 1.9rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    .contact p {
+        font-family: 'Marcellus', 'Roboto';
+        color: #9ca0a2;
+        font-size: 1.2rem;
+    }
+
+    .contact a {
+        text-decoration: none;
+        list-style: none;
+        color: #000;
+
+    }
+
+    .no {
+        color: #000;
+    }
+
+    /*---end Footer--*/
+    #footer-end {
+        margin-top: 3rem;
+    }
+
+    #end {
+        padding-left: 3rem;
+
+    }
+
+    #copyright {
+        text-align: right;
+        color: #9ca0a2;
+        font-size: 1.2rem;
+        padding-right: 3rem;
+    }
 
 
+    #copyright a {
+        color: #000000;
+        text-decoration: none;
+    }
 
-
-
-
-
-
-
-
-
-
-
+    #copyright h4 {
+        font-size: 1.3rem;
+        padding-left: 3rem;
+    }
 
 }
+
 
 @media (min-width:425px) and (max-width:766px) {
 
@@ -2271,8 +2358,6 @@ margin-right: 170px;
 
     }
 
-
-
     a.navbar-brand {
         font-size: 1.9rem;
         padding-left: 20px;
@@ -2282,22 +2367,17 @@ margin-right: 170px;
         font-size: 1.3em;
         padding-left: 910px;
         margin-top: -65px;
-
     }
 
     #list {
         display: none;
     }
 
-
     .navbar-toggler {
-
         margin-right: 200px;
-
         background-color: transparent;
         border: solid 2px;
         cursor: pointer;
-
     }
 
     .navbar-toggler-icon {
@@ -2320,7 +2400,6 @@ margin-right: 170px;
         border-bottom-style: solid;
         border-bottom-color: #dee2e6;
         padding-bottom: 20px;
-
     }
 
 
@@ -2348,7 +2427,6 @@ margin-right: 170px;
 
 
     .slider-wrapper {
-
         padding-top: 20px;
         margin-left: -12px;
     }
@@ -2356,7 +2434,7 @@ margin-right: 170px;
     .slider-wrapper .image-list {
         max-width: 720px;
         display: -webkit-inline-box;
-        gap: 20px;
+        gap: 50px;
         font-size: 0;
         overflow-x: auto;
         scrollbar-width: none;
@@ -2367,16 +2445,25 @@ margin-right: 170px;
 
 
     .image1 {
-
         width: 424px;
+    }
 
+    .image1 img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
+
+    .image1:hover img {
+        transform: scale(1);
     }
 
     .image1 h3 {
         font-family: '"Jost", Roboto, sans-serif';
         font-size: 1.6rem;
         text-transform: uppercase;
-        padding-top: 20px;
+        padding-top: 40px;
         padding-left: 2px;
         letter-spacing: .0rem;
     }
@@ -2456,13 +2543,20 @@ margin-right: 170px;
         background-color: #fff;
         padding-left: 20px;
         padding-right: 0px;
-
     }
 
     .image-item1 {
         width: 100%;
+        padding-bottom: 50px;
+    }
 
+    .image-item1 img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
 
+    .image-item1:hover img {
+        transform: scale(1);
     }
 
     .cat-img {
@@ -2470,9 +2564,8 @@ margin-right: 170px;
     }
 
     .element-title {
-        padding: 10px;
+        padding: 30px 0px 4px 4px;
         color: #9ca0a2;
-        padding-left: 5px;
         text-transform: uppercase;
         padding-bottom: 0px;
     }
@@ -2500,7 +2593,6 @@ margin-right: 170px;
         font-family: '"Jost", Roboto, sans-serif';
         text-transform: uppercase;
         color: #141313;
-        padding: 0px 0px 0px 10px;
 
     }
 
@@ -2510,8 +2602,8 @@ margin-right: 170px;
         color: #1d1c1c;
         font-size: 1.1rem;
         padding-right: 20px;
-        padding-top: 10px;
-        padding-left: 10px;
+        padding-top: 20px;
+        padding-left: 0px;
     }
 
     .slider-wrapper .image-list-product {
@@ -2523,8 +2615,6 @@ margin-right: 170px;
         scrollbar-width: none;
         grid-template-columns: repeat(10, 1fr);
         padding-bottom: 60px;
-
-
     }
 
     #flex {
@@ -2540,6 +2630,15 @@ margin-right: 170px;
 
     .product-image {
         padding-left: 10px;
+    }
+
+    .product-list img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
+
+    .product-list:hover img {
+        transform: scale(1);
     }
 
     /*--upper heading of product-*/
@@ -2704,8 +2803,6 @@ margin-right: 170px;
         width: 80%;
     }
 
-
-
     .testimonial-text h5 {
         background-color: rgb(241, 241, 240);
         padding: 0px 0px 40px 30px;
@@ -2723,7 +2820,7 @@ margin-right: 170px;
     }
 
     /* red blog post h2 */
-    /* cat-images */
+
     .post {
         display: inline-flex;
         justify-content: space-between;
@@ -2765,21 +2862,21 @@ margin-right: 170px;
         text-transform: uppercase;
     }
 
-/*logo's*/
+    /*logo's*/
 
-.logo-content{
-    margin-left: 0px;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
+    .logo-content {
+        margin-left: 0px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
 
-#logo1{
-   padding-right:17px ;
-}
+    #logo1 {
+        padding-right: 17px;
+    }
 
-#logo3{
-    padding-right:31px;
-}
+    #logo3 {
+        padding-right: 31px;
+    }
 
 
     /*--newsletter--*/
@@ -2803,7 +2900,7 @@ margin-right: 170px;
         font-size: 2.9em;
         padding: 0px 0px 0px 0px;
         text-align: center;
-margin-right: 0px;
+        margin-right: 0px;
     }
 
 
@@ -2812,12 +2909,11 @@ margin-right: 0px;
         width: 100%;
         border-color: #dee2e6;
         border-style: solid;
-        
 
     }
 
     .email {
-       
+
         padding: 30px 0px 0px;
         width: 100%;
 
@@ -2836,176 +2932,145 @@ margin-right: 0px;
 
     }
 
-/*--insta-item--*/
+    /*--insta-item--*/
 
-.insta-image {
-    padding-top: 10px;
-    max-width: 100%;
+    .insta-image {
+        padding-top: 10px;
+        max-width: 100%;
 
-}
-
-
-.instapage {
-    position: relative;
-    height: 34vh;
-}
-
-.FOLLOW {
-    font-family: 'Gill Sans MT';
-    background-color: #000;
-    color: #fff;
-    width: 60%;
-    position: absolute;
-    margin: 614px 0px 0px 70px;
-    font-size: 0.8rem;
-    padding: 7px;
-}
-
- /*--footer--*/
- .footer {
-    background-color: #fff;
-    padding-top: 1px;
- }
- #end1{
-   
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #abacad;
-}
-.footer-menu{
-    margin-top: -1px;
-}
-.footer-menu ul{
-    padding-left: 2px;
-}
-.footer-logo {
-
-    margin: 491px 0px 27px;
-    padding-left: 5px; 
-  
-}
-
-.footer-logo p {
-   
-    padding-right: 6px;
-    margin-top: 1.8rem;
-    color: #797979;
-    font-size: 1.1rem;
-}
+    }
 
 
-.social-icons i {
-    margin-bottom: 0px;
-    font-size: 1.7rem;
-   
-}
+    .instapage {
+        position: relative;
+        height: 34vh;
+    }
 
-.footer-menu h5 {
-    margin: 0px 10px px ;
-    font-size: 1.5rem;
-    font-family: 'Marcellus', 'Roboto';
-}
-#AB1{
-    padding-left: 10px;
-    
-}
+    .FOLLOW {
+        font-family: 'Gill Sans MT';
+        background-color: #000;
+        color: #fff;
+        width: 60%;
+        position: absolute;
+        margin: 614px 0px 0px 70px;
+        font-size: 0.8rem;
+        padding: 7px;
+    }
 
-.contact {
-    padding: 0px 0px;
-}
+    /*--footer--*/
+    .footer {
+        background-color: #fff;
+        padding-top: 1px;
+    }
 
-.contact h5 {
-    font-size: 1.9rem;
-    font-family: 'Marcellus', 'Roboto';
-}
+    #end1 {
 
-.contact p {
-    font-family: 'Marcellus', 'Roboto';
-    color: #9ca0a2;
-    font-size: 1.2rem;
-}
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #abacad;
+    }
 
-.contact a {
-    text-decoration: none;
-    list-style: none;
-    color: #000;
+    .footer-menu {
+        margin-top: -1px;
+    }
 
-}
+    .footer-menu ul {
+        padding-left: 2px;
+    }
 
-.no {
-    color: #000;
-}
+    .footer-logo {
 
-/*---end Footer--*/
-#footer-end {
-    margin-top: 3rem;
-}
+        margin: 491px 0px 27px;
+        padding-left: 5px;
 
-#end {
-    padding-left: 3rem;
+    }
 
-}
+    .footer-logo p {
 
-#copyright {
-    text-align: right;
-    color: #9ca0a2;
-    font-size: 1.2rem;
-    padding-right: 1rem;
-}
+        padding-right: 6px;
+        margin-top: 1.8rem;
+        color: #797979;
+        font-size: 1.1rem;
+    }
 
 
-#copyright a {
-    color: #000000;
-    text-decoration: none;
-}
+    .social-icons i {
+        margin-bottom: 0px;
+        font-size: 1.7rem;
 
-#copyright h4 {
-    font-size: 1.3rem;
-    padding-left: 3rem;
-}
+    }
+
+    .footer-menu h5 {
+        margin: 0px 10px px;
+        font-size: 1.5rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    #AB1 {
+        padding-left: 10px;
+
+    }
+
+    .contact {
+        padding: 0px 0px;
+    }
+
+    .contact h5 {
+        font-size: 1.9rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    .contact p {
+        font-family: 'Marcellus', 'Roboto';
+        color: #9ca0a2;
+        font-size: 1.2rem;
+    }
+
+    .contact a {
+        text-decoration: none;
+        list-style: none;
+        color: #000;
+
+    }
+
+    .no {
+        color: #000;
+    }
+
+    /*---end Footer--*/
+    #footer-end {
+        margin-top: 3rem;
+    }
+
+    #end {
+        padding-left: 3rem;
+
+    }
+
+    #copyright {
+        text-align: right;
+        color: #9ca0a2;
+        font-size: 1.2rem;
+        padding-right: 1rem;
+    }
 
 
+    #copyright a {
+        color: #000000;
+        text-decoration: none;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #copyright h4 {
+        font-size: 1.3rem;
+        padding-left: 3rem;
+    }
 
 }
+
+
+
 
 @media (min-width:375px) and (max-width:423px) {
-
 
     .bg {
         background-color: rgb(241, 241, 240);
@@ -3082,7 +3147,7 @@ margin-right: 0px;
     .slider-wrapper {
 
         padding-top: 20px;
-        margin-left: -5px;
+        margin-left: -11px;
     }
 
     .slider-wrapper .image-list {
@@ -3099,16 +3164,25 @@ margin-right: 0px;
 
 
     .image1 {
-
         width: 369px;
+    }
 
+    .image1 img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
+
+    .image1:hover img {
+        transform: scale(1);
     }
 
     .image1 h3 {
         font-family: '"Jost", Roboto, sans-serif';
         font-size: 1.6rem;
         text-transform: uppercase;
-        padding-top: 20px;
+        padding-top: 30px;
         padding-left: 2px;
         letter-spacing: .0rem;
     }
@@ -3191,8 +3265,16 @@ margin-right: 0px;
 
     .image-item1 {
         width: 100%;
+        padding-bottom: 30px;
+    }
 
+    .image-item1 img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
 
+    .image-item1:hover img {
+        transform: scale(1);
     }
 
     .cat-img {
@@ -3200,9 +3282,9 @@ margin-right: 0px;
     }
 
     .element-title {
-        padding: 10px;
+        padding: 30px;
         color: #9ca0a2;
-        padding-left: 5px;
+        padding-left: 0px;
         text-transform: uppercase;
         padding-bottom: 0px;
     }
@@ -3240,7 +3322,7 @@ margin-right: 0px;
         color: #1d1c1c;
         font-size: 1.2rem;
         padding-right: 0px;
-        padding-top: 10px;
+        padding-top: 30px;
         padding-left: 10px;
         width: 10%;
     }
@@ -3269,6 +3351,15 @@ margin-right: 0px;
 
     .product-image {
         width: 100%;
+    }
+
+    .product-list img {
+        transition: transform 0.8s ease;
+        transform: scale(1.1);
+    }
+
+    .product-list:hover img {
+        transform: scale(1);
     }
 
     /*--upper heading of product-*/
@@ -3304,7 +3395,7 @@ margin-right: 0px;
     .title h5 {
         text-transform: uppercase;
         letter-spacing: .1rem;
-
+        width: 48%;
         padding-top: 10px;
         font-size: 0.9rem;
         color: #2c2b2b;
@@ -3495,212 +3586,212 @@ margin-right: 0px;
         font-size: 1.3rem;
     }
 
-/*logo's*/
+    /*logo's*/
 
-.logo-content{
-    margin-left: 10px;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-.image-logo{
-    height: 30px;
-    width: 45%;
-}
-#logo1{
-   padding-right:70px ;
-}
+    .logo-content {
+        margin-left: 10px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
 
-#logo3{
-    padding-right:70px;
-}
+    .image-logo {
+        height: 30px;
+        width: 45%;
+    }
 
-/*--newsletter--*/
-.newsletter {
-    background-image: url(images/pattern-bg.png);
-    height: 450px;
-    width: 100%;
-    background-color: rgb(241, 241, 240);
-    opacity: 4px;
-}
+    #logo1 {
+        padding-right: 70px;
+    }
 
-.Subscribe {
-    font-family: 'Gill Sans MT';
-    letter-spacing: 0.03rem;
-    padding: 80px 0px 0px 0px;
-    text-transform: uppercase;
+    #logo3 {
+        padding-right: 70px;
+    }
 
-}
+    /*--newsletter--*/
+    .newsletter {
+        background-image: url(images/pattern-bg.png);
+        height: 450px;
+        width: 100%;
+        background-color: rgb(241, 241, 240);
+        opacity: 4px;
+    }
 
-.Subscribe h3 {
-    font-size: 2.9em;
-    padding: 0px 0px 0px 0px;
-    text-align: center;
-margin-right: 0px;
-}
+    .Subscribe {
+        font-family: 'Gill Sans MT';
+        letter-spacing: 0.03rem;
+        padding: 80px 0px 0px 0px;
+        text-transform: uppercase;
 
+    }
 
-/*--sign up--*/
-.form-control-lg {
-    width: 100%;
-    border-color: #dee2e6;
-    border-style: solid;
-    
-
-}
-
-.email {
-   
-    padding: 30px 0px 0px;
-    width: 100%;
-
-}
-
-.btn-default {
-    background-color: #000;
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    margin: 10px 0px;
-    font-size: 1.2rem;
-    width: 100%;
-    padding: 10px 0px 10px;
-    font-weight: bold;
-
-}
-
-/*--insta-item--*/
-
-.insta-image {
-    padding-top: 10px;
-    max-width: 100%;
-
-}
+    .Subscribe h3 {
+        font-size: 2.9em;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        margin-right: 0px;
+    }
 
 
-.instapage {
-    position: relative;
-    height: 34vh;
-}
-
-.FOLLOW {
-    font-family: 'Gill Sans MT';
-    background-color: #000;
-    color: #fff;
-    width: 70%;
-    position: absolute;
-    margin: 535px 0px 0px 40px;
-    font-size: 1.1rem;
-    padding: 4px;
-}
-
- /*--footer--*/
- .footer {
-    background-color: #fff;
-    padding-top: 1px;
- }
- #end1{
-   
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #abacad;
-}
-.footer-menu{
-    margin-top: -1px;
-}
-.footer-menu ul{
-    padding-left: 2px;
-}
-.footer-logo {
-
-    margin: 491px 0px 27px;
-    padding-left: 5px; 
-  
-}
-
-.footer-logo p {
-   
-    padding-right: 6px;
-    margin-top: 1.8rem;
-    color: #797979;
-    font-size: 1.1rem;
-}
+    /*--sign up--*/
+    .form-control-lg {
+        width: 100%;
+        border-color: #dee2e6;
+        border-style: solid;
 
 
-.social-icons i {
-    margin-bottom: 0px;
-    font-size: 1.7rem;
-   
-}
+    }
 
-.footer-menu h5 {
-    margin: 0px 10px px ;
-    font-size: 1.5rem;
-    font-family: 'Marcellus', 'Roboto';
-}
-#AB1{
-    padding-left: 10px;
-    
-}
+    .email {
 
-.contact {
-    padding: 0px 0px;
-}
+        padding: 30px 0px 0px;
+        width: 100%;
 
-.contact h5 {
-    font-size: 1.9rem;
-    font-family: 'Marcellus', 'Roboto';
-}
+    }
 
-.contact p {
-    font-family: 'Marcellus', 'Roboto';
-    color: #9ca0a2;
-    font-size: 1.2rem;
-}
+    .btn-default {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-.contact a {
-    text-decoration: none;
-    list-style: none;
-    color: #000;
+        margin: 10px 0px;
+        font-size: 1.2rem;
+        width: 100%;
+        padding: 10px 0px 10px;
+        font-weight: bold;
 
-}
+    }
 
-.no {
-    color: #000;
-}
+    /*--insta-item--*/
 
-/*---end Footer--*/
-#footer-end {
-    margin-top: 3rem;
-}
+    .insta-image {
+        padding-top: 10px;
+        max-width: 100%;
 
-#end {
-    padding-left: 3rem;
-
-}
-
-#copyright {
-    text-align: right;
-    color: #9ca0a2;
-    font-size: 1.2rem;
-    padding-right: 1rem;
-}
+    }
 
 
-#copyright a {
-    color: #000000;
-    text-decoration: none;
-}
+    .instapage {
+        position: relative;
+        height: 34vh;
+    }
 
-#copyright h4 {
-    font-size: 1.3rem;
-    padding-left: 3rem;
-}
+    .FOLLOW {
+        font-family: 'Gill Sans MT';
+        background-color: #000;
+        color: #fff;
+        width: 70%;
+        position: absolute;
+        margin: 535px 0px 0px 40px;
+        font-size: 1.1rem;
+        padding: 4px;
+    }
+
+    /*--footer--*/
+    .footer {
+        background-color: #fff;
+        padding-top: 1px;
+    }
+
+    #end1 {
+
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #abacad;
+    }
+
+    .footer-menu {
+        margin-top: -1px;
+    }
+
+    .footer-menu ul {
+        padding-left: 2px;
+    }
+
+    .footer-logo {
+
+        margin: 491px 0px 27px;
+        padding-left: 5px;
+
+    }
+
+    .footer-logo p {
+
+        padding-right: 6px;
+        margin-top: 1.8rem;
+        color: #797979;
+        font-size: 1.1rem;
+    }
 
 
+    .social-icons i {
+        margin-bottom: 0px;
+        font-size: 1.7rem;
+
+    }
+
+    .footer-menu h5 {
+        margin: 0px 10px px;
+        font-size: 1.5rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    #AB1 {
+        padding-left: 10px;
+
+    }
+
+    .contact {
+        padding: 0px 0px;
+    }
+
+    .contact h5 {
+        font-size: 1.9rem;
+        font-family: 'Marcellus', 'Roboto';
+    }
+
+    .contact p {
+        font-family: 'Marcellus', 'Roboto';
+        color: #9ca0a2;
+        font-size: 1.2rem;
+    }
+
+    .contact a {
+        text-decoration: none;
+        list-style: none;
+        color: #000;
+
+    }
+
+    .no {
+        color: #000;
+    }
+
+    /*---end Footer--*/
+    #footer-end {
+        margin-top: 3rem;
+    }
+
+    #end {
+        padding-left: 3rem;
+
+    }
+
+    #copyright {
+        text-align: right;
+        color: #9ca0a2;
+        font-size: 1.2rem;
+        padding-right: 1rem;
+    }
 
 
+    #copyright a {
+        color: #000000;
+        text-decoration: none;
+    }
 
-
-
+    #copyright h4 {
+        font-size: 1.3rem;
+        padding-left: 3rem;
+    }
 
 }
